@@ -110,3 +110,46 @@
     }
   }
 }
+
+@media screen and (max-width: 850px) {
+  #page-room {
+
+    main {
+      .room-title {
+        padding: 0 32px;
+      }
+    }
+
+    form {
+
+      padding: 0 32px;
+
+      textarea {
+        width: 100% !important;
+      }
+
+      .form-footer {
+        padding: 0 32px;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 496px) {
+  #page-room {
+    header {
+      .content {
+        gap: 16px;
+      }
+    }
+
+    form {
+      .form-footer {
+        gap: 20px;
+      }
+    }
+
+  }
+}
