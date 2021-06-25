@@ -18,7 +18,7 @@ type RoomParams = {
 };
 
 export function Room() {
-  const user = useAuth();
+  const { user } = useAuth();
   const params = useParams<RoomParams>();
   const [newQuestion, setNewQuestion] = useState("");
   const roomId = params.id;
@@ -39,8 +39,8 @@ export function Room() {
     const question = {
       content: newQuestion,
       author: {
-        name: user.user?.name,
-        avatar: user.user?.avatar,
+        name: user?.name,
+        avatar: user?.avatar,
       },
       isHighlighted: false,
       isAnswered: false,
@@ -56,7 +56,7 @@ export function Room() {
       await database.ref(`rooms/${roomId}/questions/${questionId}/likes/${likeId}`).remove()
     } else {
       await database.ref(`rooms/${roomId}/questions/${questionId}/likes`).push({
-        authorId: user.user?.id,
+        authorId: user?.id,
       });
     }
   }
@@ -85,8 +85,8 @@ export function Room() {
           <div className="form-footer">
             {user ? (
               <div className="user-info">
-                <img src={user.user?.avatar} alt={user.user?.name} />
-                <span>{user.user?.name}</span>
+                <img src={user?.avatar} alt={user?.name} />
+                <span>{user?.name}</span>
               </div>
             ) : (
               <span>
