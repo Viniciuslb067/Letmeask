@@ -40,7 +40,7 @@ Lembrando que será necessário criar uma conta no [Firebase](https://firebase.g
 
 ## 💻 Projeto
 
-Letmeask é uma aplicação perfeita para iniciar discussões de uma forma muito organizada e democrática . 
+Letmeask é uma aplicação perfeita para iniciar discussões de uma forma muito organizada e democrática. 
 
 Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
 
