@@ -113,7 +113,6 @@
 
 @media screen and (max-width: 850px) {
   #page-room {
-
     main {
       .room-title {
         padding: 0 32px;
@@ -121,7 +120,6 @@
     }
 
     form {
-
       padding: 0 32px;
 
       textarea {
@@ -132,16 +130,36 @@
         padding: 0 32px;
       }
     }
+
+    .question-list {
+      padding: 0 32px;
+    }
   }
 }
 
+@media screen and (max-width: 626px) {
+  #page-room {
+    header {
+      .content {
+        flex-direction: column;
 
+        > img {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 496px) {
   #page-room {
     header {
       .content {
         gap: 16px;
+
+        div {
+          flex-direction: column;
+        }
       }
     }
 
@@ -150,6 +168,32 @@
         gap: 20px;
       }
     }
+  }
+}
 
+@media screen and (max-width: 308px) {
+  #page-room {
+    header {
+      .content {
+        div {
+          button {
+            width: 210px;
+          }
+        }
+      }
+    }
+
+    main {
+      .room-title {
+        flex-direction: column;
+      }
+
+      .question {
+        footer {
+          gap: 20px;
+          flex-direction: column;
+        }
+      }
+    }
   }
 }
