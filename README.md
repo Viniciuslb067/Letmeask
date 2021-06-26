@@ -1,11 +1,10 @@
 <p align="center">
-  <img alt="Letmeask" src=".github/home.png">
+  <img alt="Letmeask" src=".github/logo.svg" width="160px">
 </p>
 
 
-
 <h1 align="center">
-    <img alt="Letmeask" src=".github/cover.svg" />
+    <img alt="Letmeask" src=".github/home.png">
 </h1>
 
 <br>
@@ -41,23 +40,13 @@ Lembrando que será necessário criar uma conta no [Firebase](https://firebase.g
 
 ## 💻 Projeto
 
-Letmeask é uma aplicação perfeita para iniciar discussões de uma forma muito organizada e democrática . 
+Letmeask é uma aplicação perfeita para iniciar discussões de uma forma muito organizada e democrática. 
 
 Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
 
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através do link abaixo:
-
-- [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
-
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
-
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
 ---
 
-Feito com 💜 by Rocketseat 👋🏻 [Participe da nossa comunidade](https://discord.gg/gKUVrzrPrU)
+<p align="center">
+  Feito com 💜 by Vinicius
+</p>
